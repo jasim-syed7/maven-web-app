@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Wedding Invitation</title>
@@ -48,10 +47,10 @@
     </div>
     
     <div class="wedding-date">
-        <p>Date: June 15, 2023</p>
-        <p>Time: 6:00 PM</p>
-        <p>Venue: XYZ Wedding Hall</p>
-        <p>Address: 123 Main Street, City</p>
+        <p>Date: March 07, 2021</p>
+        <p>Time: 1:00 PM</p>
+        <p>Venue: KTC function Hall</p>
+        <p>Address: Sundupalli Road, Rayachoty</p>
     </div>
     
     <div class="invitation-message">
@@ -70,4 +69,3 @@
     <p>Jasim and Thahaseen</p>
 </body>
 </html>
-
