@@ -5,7 +5,7 @@
 
 <a href="https://ashokitech.com/online-training-schedules">Click Here To See jasim </a>
   
-  <h2> Call Us : + 91 - ---- </h2>
+  <h2> Call Us : + 91 - 7207474047 </h2>
 
 </body>
 </html>
