@@ -1,51 +1,70 @@
-pipeline {
-    agent any
-    
-    stages {
-        stage('Generate Wedding Invitation') {
-            steps {
-                script {
-                    def groom = "Jasim"
-                    def bride = "Thahaseen(Haneefa)"
-                    
-                    println "Generating wedding invitation for $groom weds $bride..."
-                    
-                    // Add your custom logic here to generate the invitation, such as creating a PDF or HTML file
-                    
-                    // For example, you can use a library like Apache PDFBox to generate a PDF file
-                    // Here's a sample code snippet to create a PDF invitation:
-                    
-                    /*
-                    import org.apache.pdfbox.pdmodel.PDDocument
-                    import org.apache.pdfbox.pdmodel.PDPage
-                    import org.apache.pdfbox.pdmodel.common.PDRectangle
-                    import org.apache.pdfbox.pdmodel.PDPageContentStream
-                    import java.awt.Color
-                    
-                    PDDocument document = new PDDocument()
-                    PDPage page = new PDPage(PDRectangle.A4)
-                    document.addPage(page)
-                    
-                    PDPageContentStream contentStream = new PDPageContentStream(document, page)
-                    contentStream.setFont(PDType1Font.HELVETICA_BOLD, 16)
-                    contentStream.setNonStrokingColor(Color.BLACK)
-                    contentStream.beginText()
-                    contentStream.newLineAtOffset(100, 700)
-                    contentStream.showText("You are cordially invited to the wedding of")
-                    contentStream.newLine()
-                    contentStream.showText("$groom weds $bride")
-                    contentStream.endText()
-                    contentStream.close()
-                    
-                    document.save("/path/to/invitation.pdf")
-                    document.close()
-                    */
-                    
-                    // Once the invitation is generated, you can send it via email or save it to a desired location
-                    
-                    println "Wedding invitation generated successfully!"
-                }
-            }
-        }
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wedding Invitation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
     }
-}
+    
+    h1 {
+      color: #333;
+      margin-top: 40px;
+    }
+    
+    p {
+      color: #555;
+    }
+    
+    .invitation-card {
+      background-color: #fff;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .couple-names {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .date-time {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    .venue {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    .dress-code {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+    
+    .rsvp {
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="invitation-card">
+    <h1>Wedding Invitation</h1>
+    <p class="couple-names">Jasim weds Thahaseen (Haneefa)</p>
+    <p class="date-time">Date: 25th May 2023</p>
+    <p class="venue">Venue: XYZ Wedding Hall</p>
+    <p class="dress-code">Dress Code: Formal</p>
+    <p class="rsvp">Please RSVP by 15th May 2023</p>
+  </div>
+</body>
+
+</html>
