@@ -1,71 +1,51 @@
-<html>
-<body>
-    <title>Wedding Invitation</title>
-    <style>
-        body {
-            font-family: Dreamland, sans-serif;
-            text-align: center;
-        }
-
-        h1 {
-            color: #ff3366;
-        }
-
-        p {
-            font-size: 28px;
-            margin: 12px 0;
-        }
-
-        .couple-names {
-            font-size: 34px;
-            color: #333;
-            margin-bottom: 30px;
-        }
-
-        .wedding-date {
-            font-size: 20px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-
-        .invitation-message {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 30px;
-        }
-
-        .invitation-image {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Wedding Invitation</h1>
+pipeline {
+    agent any
     
-    <div class="couple-names">
-        <p>"Jasim" weds "Thahaseen"</p>
-    </div>
-    
-    <div class="wedding-date">
-        <p>Date: March 07, 2021</p>
-        <p>Time: 1:00 PM</p>
-        <p>Venue: KTC function Hall</p>
-        <p>Address: Sundupalli Road, Rayachoty</p>
-    </div>
-    
-    <div class="invitation-message">
-        <p>Dear Friends and Family,</p>
-        <p>We are delighted to invite you to our wedding celebration. Your presence would make our special day even more memorable.</p>
-        <p>Please join us as we begin this beautiful journey of love and togetherness.</p>
-    </div>
-    
-    <div class="invitation-image">
-        <img src="path/to/invitation-image.jpg" alt="Wedding Invitation" width="500">
-    </div>
-    
-    <p>Kindly RSVP by May 31, 2023.</p>
-    
-    <p>With love,</p>
-    <p>Jasim and Thahaseen</p>
-</body>
-</html>
+    stages {
+        stage('Generate Wedding Invitation') {
+            steps {
+                script {
+                    def groom = "Jasim"
+                    def bride = "Thahaseen(Haneefa)"
+                    
+                    println "Generating wedding invitation for $groom weds $bride..."
+                    
+                    // Add your custom logic here to generate the invitation, such as creating a PDF or HTML file
+                    
+                    // For example, you can use a library like Apache PDFBox to generate a PDF file
+                    // Here's a sample code snippet to create a PDF invitation:
+                    
+                    /*
+                    import org.apache.pdfbox.pdmodel.PDDocument
+                    import org.apache.pdfbox.pdmodel.PDPage
+                    import org.apache.pdfbox.pdmodel.common.PDRectangle
+                    import org.apache.pdfbox.pdmodel.PDPageContentStream
+                    import java.awt.Color
+                    
+                    PDDocument document = new PDDocument()
+                    PDPage page = new PDPage(PDRectangle.A4)
+                    document.addPage(page)
+                    
+                    PDPageContentStream contentStream = new PDPageContentStream(document, page)
+                    contentStream.setFont(PDType1Font.HELVETICA_BOLD, 16)
+                    contentStream.setNonStrokingColor(Color.BLACK)
+                    contentStream.beginText()
+                    contentStream.newLineAtOffset(100, 700)
+                    contentStream.showText("You are cordially invited to the wedding of")
+                    contentStream.newLine()
+                    contentStream.showText("$groom weds $bride")
+                    contentStream.endText()
+                    contentStream.close()
+                    
+                    document.save("/path/to/invitation.pdf")
+                    document.close()
+                    */
+                    
+                    // Once the invitation is generated, you can send it via email or save it to a desired location
+                    
+                    println "Wedding invitation generated successfully!"
+                }
+            }
+        }
+    }
+}
