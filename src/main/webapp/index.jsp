@@ -1,5 +1,5 @@
 <html>
-<head>
+<body>
     <title>Wedding Invitation</title>
     <style>
         body {
