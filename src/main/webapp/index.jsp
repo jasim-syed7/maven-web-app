@@ -3,7 +3,7 @@
     <title>Wedding Invitation</title>
     <style>
         body {
-            font-family: Alex Brush, sans-serif;
+            font-family: Dreamland, sans-serif;
             text-align: center;
         }
 
