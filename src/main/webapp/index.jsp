@@ -3,7 +3,7 @@
     <title>Wedding Invitation</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Alex Brush, sans-serif;
             text-align: center;
         }
 
@@ -12,12 +12,12 @@
         }
 
         p {
-            font-size: 18px;
-            margin: 10px 0;
+            font-size: 28px;
+            margin: 12px 0;
         }
 
         .couple-names {
-            font-size: 24px;
+            font-size: 34px;
             color: #333;
             margin-bottom: 30px;
         }
