@@ -60,10 +60,10 @@
   <div class="invitation-card">
     <h1>Wedding Invitation</h1>
     <p class="couple-names">Jasim weds Thahaseen (Haneefa)</p>
-    <p class="date-time">Date: 25th May 2023</p>
-    <p class="venue">Venue: XYZ Wedding Hall</p>
-    <p class="dress-code">Dress Code: Formal</p>
-    <p class="rsvp">Please RSVP by 15th May 2023</p>
+    <p class="date-time">Date: 7th Maarch 2023</p>
+    <p class="venue">Venue: KTC Function Hall</p>
+    <p class="dress-code">Dress Code: Traditional</p>
+    <p class="rsvp"> Edited time 1st October 2023</p>
   </div>
 </body>
 
