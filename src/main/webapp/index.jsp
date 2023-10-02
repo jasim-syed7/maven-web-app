@@ -40,18 +40,18 @@
     }
     
     .venue {
-      font-size: 18px;
+      font-size: 22px;
       margin-bottom: 20px;
     }
     
     .dress-code {
       font-size: 16px;
-      color: #777;
+      color: #787;
       margin-bottom: 20px;
     }
     
     .rsvp {
-      font-size: 16px;
+      font-size: 18px;
     }
   </style>
 </head>
