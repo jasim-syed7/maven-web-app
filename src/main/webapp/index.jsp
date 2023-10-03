@@ -59,7 +59,7 @@
 <body>
   <div class="invitation-card">
     <h1>Wedding Invitation</h1>
-    <p class="couple-names">Jasim weds Thahaseen (Haneefa)</p>
+    <p class="couple-names">Jasim weds Noor-E-Ayeen </p>
     <p class="date-time">Date: 7th March 2023</p>
     <p class="venue">Venue: KTC Function Hall</p>
     <p class="dress-code">Dress Code: Traditional</p>
