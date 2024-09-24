@@ -62,7 +62,7 @@
     <p class="couple-names">Jasim weds Noor-E-Ayeen </p>
     <p class="date-time">Date: 7th March 2021</p>
     <p class="venue">Venue: KTC Function Hall</p>
-    <p class="dress-code">Dress Code: Traditional</p>
+    <p class="dress-code">Dress Code: Ethnic</p>
     <p class="rsvp"> Edited time 1st October 2023</p>
   </div>
 </body>
