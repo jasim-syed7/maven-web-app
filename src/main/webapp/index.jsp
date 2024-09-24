@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Wedding Invitation</title>
+  <title>Wedding Invitation - All are Welcome</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -29,7 +29,7 @@
     }
     
     .couple-names {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: bold;
       margin-bottom: 20px;
     }
